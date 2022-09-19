@@ -18,9 +18,9 @@ public class PrivatAPI {
             return null;
         }
         for (PrivatBank pb : allCurrency) {
-            if (pb.getCcy().equals(USD.getName()) || pb.getCcy().equals(EUR.getName()) || pb.getCcy().equals(RUR.getName())) {
+            if (pb.getCcy().equals(USD.getName()) || pb.getCcy().equals(EUR.getName()) || pb.getCcy().equals(RUR.getName()) || pb.getCcy().equals(PLN.getName()) || pb.getCcy().equals(GBP.getName())) {
                 BankResponse bankResponse = new BankResponse();
-                bankResponse.setBank("Пртватбанк");
+                bankResponse.setBank("Приватбанк");
                 bankResponse.setBuy(Float.parseFloat(pb.getBuy()));
                 bankResponse.setSale(Float.parseFloat(pb.getSale()));
                 bankResponse.setCurrency(pb.getCcy());

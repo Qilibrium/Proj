@@ -15,7 +15,7 @@ public class BankButton implements Button {
     private final SendMessageBotService sendMessageBotService;
     private static String data;
     private Settings settings;
-    private final static String MESSAGE = "\uD83C\uDFE6 Выберете Банки";
+    private final static String MESSAGE = "\uD83C\uDFE6 Виберіть банк";
     private final static String CHECK = "✅";
     private final static String UNCHECK = "";
     private final static String BACK_EMOJI = "⬅";

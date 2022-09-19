@@ -17,6 +17,9 @@ public enum ButtonCallBack {
     USD_CALLBACK("USD_currency"),
     EUR_CALLBACK("EUR_currency"),
     RUR_CALLBACK("RUR_currency"),
+    PLN_CALLBACK("PLN_currency"),
+    GBP_CALLBACK("GBP_currency"),
+
 
     PRECISION_CALLBACK("precision"),
     PRECISION_TWO_CALLBACK("2"),
@@ -24,6 +27,9 @@ public enum ButtonCallBack {
     PRECISION_FOUR_CALLBACK("4"),
 
     TIME_UPDATE_CALLBACK("time_update"),
+    TIME_UPDATE_SIX_CALLBACK("6"),
+    TIME_UPDATE_SEVEN_CALLBACK("7"),
+    TIME_UPDATE_EIGHT_CALLBACK("8"),
     TIME_UPDATE_NINE_CALLBACK("9"),
     TIME_UPDATE_THEN_CALLBACK("10"),
     TIME_UPDATE_ELEVEN_CALLBACK("11"),
@@ -34,6 +40,9 @@ public enum ButtonCallBack {
     TIME_UPDATE_SIXTEEN_CALLBACK("16"),
     TIME_UPDATE_SEVENTEEN_CALLBACK("17"),
     TIME_UPDATE_EIGHTEEN_CALLBACK("18"),
+    TIME_UPDATE_NINETEEN_CALLBACK("19"),
+    TIME_UPDATE_TWENTY_CALLBACK("20"),
+    TIME_UPDATE_TWENTY_ONE_CALLBACK("21"),
     TIME_UPDATE_DISABLE_CALLBACK("disable_update");
     private String callback;
 

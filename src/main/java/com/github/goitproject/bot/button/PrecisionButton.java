@@ -16,7 +16,7 @@ public class PrecisionButton implements Button {
     private static String data;
     private Settings settings;
     private Integer messageId;
-    private final static String MESSAGE = "\uD83C\uDFAF Выберете кол-во знаков после запятой";
+    private final static String MESSAGE = "\uD83C\uDFAF Виберіть кількість знаків після коми";
     private final static String CHECK = "✅ ";
     private final static String UNCHECK = "";
     private final static String BACK_EMOJI = "⬅";
@@ -83,7 +83,7 @@ public class PrecisionButton implements Button {
         buttonsRow1.add(buttonTWO);
         buttonsRow1.add(buttonTHREE);
         buttonsRow1.add(buttonFOUR);
-        buttonsRow2.add(buttonBack);
+        buttonsRow2.add(buttonBack);//??
 
         rowList.add(buttonsRow1);
         rowList.add(buttonsRow2);

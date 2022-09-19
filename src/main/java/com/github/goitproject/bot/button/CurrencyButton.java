@@ -15,15 +15,17 @@ public class CurrencyButton implements Button {
     private final SendMessageBotService sendMessageBotService;
     private static String data;
     private Settings settings;
-    private final static String MESSAGE = "\uD83D\uDCB0 Выберете Валюты";
+    private final static String MESSAGE = "\uD83D\uDCB0 Виберіть Валюту";
     private final static String CHECK = "✅ ";
     private final static String UNCHECK = "";
     private final static String BACK_EMOJI = "⬅";
 
     private InlineKeyboardMarkup inlineKeyboardMarkup = new InlineKeyboardMarkup();
-    private InlineKeyboardButton buttonUSD = new InlineKeyboardButton();
-    private InlineKeyboardButton buttonEUR = new InlineKeyboardButton();
-    private InlineKeyboardButton buttonRUR = new InlineKeyboardButton();
+    private final InlineKeyboardButton buttonUSD = new InlineKeyboardButton();
+    private final InlineKeyboardButton buttonEUR = new InlineKeyboardButton();
+    private final InlineKeyboardButton buttonRUR = new InlineKeyboardButton();
+    private final InlineKeyboardButton buttonPLN = new InlineKeyboardButton();
+    private final InlineKeyboardButton buttonGBP = new InlineKeyboardButton();
     private InlineKeyboardButton buttonBack = new InlineKeyboardButton();
     private List<InlineKeyboardButton> buttonsRow1 = new ArrayList<>();
     private List<InlineKeyboardButton> buttonsRow2 = new ArrayList<>();
@@ -72,12 +74,29 @@ public class CurrencyButton implements Button {
         }
         buttonRUR.setCallbackData(RUR_CALLBACK.getCallback());
 
+        if (settings.isCheckPLN()) {
+            buttonPLN.setText(CHECK + PLN.getName());
+        } else {
+            buttonPLN.setText(UNCHECK + PLN.getName());
+        }
+        buttonPLN.setCallbackData(PLN_CALLBACK.getCallback());
+
+        if (settings.isCheckGBP()) {
+            buttonGBP.setText(CHECK + GBP.getName());
+        } else {
+            buttonGBP.setText(UNCHECK + GBP.getName());
+        }
+        buttonGBP.setCallbackData(GBP_CALLBACK.getCallback());
+
         buttonBack.setText(BACK_EMOJI + BACK.getName());
         buttonBack.setCallbackData(BACK_CALLBACK.getCallback());
 
         buttonsRow1.add(buttonUSD);
         buttonsRow1.add(buttonEUR);
         buttonsRow1.add(buttonRUR);
+        buttonsRow1.add(buttonPLN);
+        buttonsRow1.add(buttonGBP);
+
         buttonsRow2.add(buttonBack);
 
         rowList.add(buttonsRow1);
@@ -113,6 +132,24 @@ public class CurrencyButton implements Button {
             } else {
                 buttonRUR.setText(CHECK + RUR.getName());
                 settings.setCheckRUR(true);
+            }
+        }
+        if (data.equals(PLN_CALLBACK.getCallback())) {
+            if (settings.isCheckPLN()) {
+                buttonPLN.setText(UNCHECK + PLN.getName());
+                settings.setCheckPLN(false);
+            } else {
+                buttonPLN.setText(CHECK + PLN.getName());
+                settings.setCheckPLN(true);
+            }
+        }
+        if (data.equals(GBP_CALLBACK.getCallback())) {
+            if (settings.isCheckGBP()) {
+                buttonGBP.setText(UNCHECK + GBP.getName());
+                settings.setCheckGBP(false);
+            } else {
+                buttonGBP.setText(CHECK + GBP.getName());
+                settings.setCheckGBP(true);
             }
         }
         return inlineKeyboardMarkup;

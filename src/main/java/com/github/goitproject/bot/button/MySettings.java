@@ -14,14 +14,14 @@ public class MySettings implements Button {
     public void execute(Update update, Settings settings) {
         String chatId = update.getMessage().getChatId().toString();
         StringBuilder message = new StringBuilder();
-        message.append("\uD83D\uDD27  Мои настройки: \n");
+        message.append("\uD83D\uDD27  Мої налаштування: \n");
         message.append("Банк: ");
         if (settings.isCheckNBU())
             message.append("НБУ ");
         if (settings.isCheckMonoBank())
             message.append("МоноБанк ");
         if (settings.isCheckPrivatBank())
-            message.append("ПртваБанк ");
+            message.append("ПриватБанк ");
 
         message.append("\n");
 
@@ -32,8 +32,12 @@ public class MySettings implements Button {
             message.append("EUR ");
         if (settings.isCheckRUR())
             message.append("RUB ");
+        if (settings.isCheckPLN())
+            message.append("PLN ");
+        if (settings.isCheckGBP())
+            message.append("GBP ");
         message.append("\n");
-        message.append("Кол-во знаков после запятой: ");
+        message.append("Кількість знаків після коми: ");
 
         switch (settings.getPrecision()) {
             case 2:
@@ -45,9 +49,18 @@ public class MySettings implements Button {
             case 4:
                 message.append("4\n");
         }
-        message.append("Время оповещений:  ");
+        message.append("Час сповіщень:  ");
         if (!settings.isCheckDisableTimeUpdate()) {
             switch (settings.getTimeUpdate()) {
+                case 6:
+                    message.append("6:00\n");
+                    break;
+                case 7:
+                    message.append("7:00\n");
+                    break;
+                case 8:
+                    message.append("8:00\n");
+                    break;
                 case 9:
                     message.append("9:00\n");
                     break;
@@ -77,9 +90,19 @@ public class MySettings implements Button {
                     break;
                 case 18:
                     message.append("18:00\n");
+                    break;
+                case 19:
+                    message.append("19:00\n");
+                    break;
+                case 20:
+                    message.append("20:00\n");
+                    break;
+                case 21:
+                    message.append("21:00\n");
+
             }
         } else
-            message.append("Выкл.\n");
+            message.append("Вимк.\n");
         sendMessageBotService.SendMessage(chatId, message.toString());
     }
 }

@@ -16,7 +16,7 @@ public class NbuAPI {
             return null;
         }
             for (NbuBank nb : allCurrency) {
-                if (nb.getCc().equals(USD.getName()) || nb.getCc().equals(EUR.getName()) || nb.getCc().equals("RUB")) {
+                if (nb.getCc().equals(USD.getName()) || nb.getCc().equals(EUR.getName())  || nb.getCc().equals(RUR.getName()) || nb.getCc().equals(PLN.getName()) || nb.getCc().equals(GBP.getName())) {
                     BankResponse bankResponse = new BankResponse();
                     bankResponse.setBank(NBU.getName());
                     bankResponse.setBuy(nb.getRate());

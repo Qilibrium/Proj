@@ -5,6 +5,8 @@ public class Settings {
     private boolean isCheckUSD;
     private boolean isCheckEUR;
     private boolean isCheckRUR;
+    private boolean isCheckPLN;
+    private boolean isCheckGBP;
     private boolean isCheckMonoBank;
     private boolean isCheckPrivatBank;
     private boolean isCheckNBU;
@@ -18,6 +20,9 @@ public class Settings {
         isCheckUSD = true;
         isCheckEUR = false;
         isCheckRUR = false;
+        isCheckPLN = false;
+        isCheckGBP = false;
+
         isCheckMonoBank = false;
         isCheckPrivatBank = false;
         isCheckNBU = true;
@@ -56,6 +61,21 @@ public class Settings {
 
     public void setCheckRUR(boolean checkRUR) {
         isCheckRUR = checkRUR;
+    }
+
+    public boolean isCheckPLN() {
+        return isCheckPLN;
+    }
+
+    public void setCheckPLN(boolean checkPLN) {
+        isCheckRUR = checkPLN;
+    }
+    public boolean isCheckGBP() {
+        return isCheckGBP;
+    }
+
+    public void setCheckGBP(boolean checkGBP) {
+        isCheckRUR = checkGBP;
     }
 
     public boolean isCheckMonoBank() {

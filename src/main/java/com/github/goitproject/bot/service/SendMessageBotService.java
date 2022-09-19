@@ -11,7 +11,9 @@ import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboard;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMarkup;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
-public class SendMessageBotService /*implements SendMessageBotService*/{
+import java.io.Serializable;
+
+public class SendMessageBotService {
     private final TelegramBot telegramBot;
 
 
@@ -55,7 +57,7 @@ public class SendMessageBotService /*implements SendMessageBotService*/{
         edit.setReplyMarkup(replyKeyboard);
         edit.setText(message);
         try {
-            telegramBot.execute(edit);
+            telegramBot.execute(edit);//////
         }
         catch (TelegramApiException e){
             e.printStackTrace();

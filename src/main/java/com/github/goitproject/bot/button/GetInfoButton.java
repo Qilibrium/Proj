@@ -23,7 +23,7 @@ public class GetInfoButton implements Button {
 
     private StringBuilder infoMessage = new StringBuilder();
     private Settings settings;
-    private GetMessageInfo getdMessage = new GetMessageInfo();
+    private GetMessageInfo getMessage = new GetMessageInfo();
 
     public GetInfoButton(SendMessageBotService sendMessageBotService) {
         this.sendMessageBotService = sendMessageBotService;
@@ -42,14 +42,14 @@ public class GetInfoButton implements Button {
             settings.setCheckNBU(true);
         }
         if (settings.isCheckNBU()) {
-            infoMessage.append(getdMessage.getMessageInfo(NBU, settings));
+            infoMessage.append(getMessage.getMessageInfo(NBU, settings));
         }
         if (settings.isCheckMonoBank()) {
-            infoMessage.append(getdMessage.getMessageInfo(MONOBANK, settings));
+            infoMessage.append(getMessage.getMessageInfo(MONOBANK, settings));
         }
 
         if (settings.isCheckPrivatBank()) {
-            infoMessage.append(getdMessage.getMessageInfo(PRIVATBANK, settings));
+            infoMessage.append(getMessage.getMessageInfo(PRIVATBANK, settings));
         }
         buttonsRow1.clear();
         buttonsRow2.clear();

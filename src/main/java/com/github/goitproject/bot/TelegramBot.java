@@ -1,29 +1,23 @@
 package com.github.goitproject.bot;
 
 import com.github.goitproject.bot.button.ButtonContainer;
-
 import com.github.goitproject.bot.button.Settings;
 import com.github.goitproject.bot.service.SendMessageBotService;
-import com.github.goitproject.bot.service.timer.*;
+import com.github.goitproject.bot.service.timer.TimeUpdate;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
-
 import org.telegram.telegrambots.meta.api.objects.Update;
 
 import java.util.Map;
 
-import org.apache.log4j.Logger;
-
 
 public class TelegramBot extends TelegramLongPollingBot {
-    static final Logger log = Logger.getLogger(TelegramBot.class);
     private final ButtonContainer buttonContainer;
-    private static final String BOT_USER_NAME = "exchange_CLI_bot";
-    private static final String TOKEN = "2002904530:AAEVfsYTwAsbICA1pjuVtBYs-y9F1aCYZPA";
-    private TimeUpdate timeUpdate;
+    private static final String BOT_USER_NAME = "CurrencyExchangeGoBot";
+    private static final String TOKEN = "5678614363:AAGFa3P6WT-RT3klAz6G8WLp0F5QagXZgVg";
 
     public TelegramBot() {
         this.buttonContainer = new ButtonContainer(new SendMessageBotService(this));
-        timeUpdate = new TimeUpdate(this);
+        TimeUpdate timeUpdate = new TimeUpdate(this);
         timeUpdate.startTimer();
     }
 
@@ -34,7 +28,7 @@ public class TelegramBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        // log.info(TOKEN);
+
         return TOKEN;
     }
 

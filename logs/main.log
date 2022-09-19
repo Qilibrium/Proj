@@ -2826,3 +2826,597 @@ java.lang.NullPointerException: Cannot invoke "com.github.goitproject.bot.button
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
 	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 10:24:36,607[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:58)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:52)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 10:24:40,636[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:58)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:52)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 10:25:04,344[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:58)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:52)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 10:25:05,275[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:58)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:52)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 10:25:38,799[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:58)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:52)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 10:25:40,773[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:58)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:52)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 10:25:41,971[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:58)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:52)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 10:26:08,106[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:58)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:48)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 10:27:29,633[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:58)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:52)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:23:36,796[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:45)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:23:43,310[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:45)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:24:27,106[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:45)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:25:02,494[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:45)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:25:06,626[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:45)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:25:46,353[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:45)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:26:07,750[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:45)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:26:10,919[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:45)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:27:04,726[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:45)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:27:19,222[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:45)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:27:20,370[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:45)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:27:39,413[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:45)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:27:43,379[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:45)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:31:24,128[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:48)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:31:26,799[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:48)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:39:28,944[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:45)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:39:42,574[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:45)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:40:23,594[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:48)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:40:45,880[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:48)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:40:49,190[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:48)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:41:06,832[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:41)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:52)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:41:12,352[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:41)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:52)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:41:35,863[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:41)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:52)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:41:41,297[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:41)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:52)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:43:14,330[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:52)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:43:34,829[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:52)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:43:39,814[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:52)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:51:58,179[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:48)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:52:00,300[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:48)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:52:01,117[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:48)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:55:35,186[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:48)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 15:55:42,007[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:48)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 16:58:13,363[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:48)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 16:58:19,373[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:48)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 16:58:56,609[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:48)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 17:05:30,708[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:45)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 17:06:46,459[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:45)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 17:06:49,648[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:45)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 17:07:31,761[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:45)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 17:07:39,027[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:45)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 17:07:46,363[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:45)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 17:07:54,378[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:45)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 17:08:18,856[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:48)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 17:09:38,209[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:52)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 17:09:44,674[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:52)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 17:15:24,910[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - No value present
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:48)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 17:23:45,993[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot format given Object as a Number
+java.lang.IllegalArgumentException: Cannot format given Object as a Number
+	at java.base/java.text.DecimalFormat.format(DecimalFormat.java:515)
+	at java.base/java.text.Format.format(Format.java:159)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:48)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 17:23:49,165[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot format given Object as a Number
+java.lang.IllegalArgumentException: Cannot format given Object as a Number
+	at java.base/java.text.DecimalFormat.format(DecimalFormat.java:515)
+	at java.base/java.text.Format.format(Format.java:159)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:48)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 17:23:50,326[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot format given Object as a Number
+java.lang.IllegalArgumentException: Cannot format given Object as a Number
+	at java.base/java.text.DecimalFormat.format(DecimalFormat.java:515)
+	at java.base/java.text.Format.format(Format.java:159)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:48)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2022-09-19 17:23:50,672[ERROR][elegram Executor][datesreceivers.DefaultBotSession] - Cannot format given Object as a Number
+java.lang.IllegalArgumentException: Cannot format given Object as a Number
+	at java.base/java.text.DecimalFormat.format(DecimalFormat.java:515)
+	at java.base/java.text.Format.format(Format.java:159)
+	at com.github.goitproject.bot.button.GetMessageInfo.createStringMessage(GetMessageInfo.java:66)
+	at com.github.goitproject.bot.button.GetMessageInfo.getMessageInfo(GetMessageInfo.java:49)
+	at com.github.goitproject.bot.button.GetInfoButton.execute(GetInfoButton.java:48)
+	at com.github.goitproject.bot.TelegramBot.onUpdateReceived(TelegramBot.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)

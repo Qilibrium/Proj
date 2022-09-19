@@ -19,7 +19,7 @@ public class StartButton implements Button {
     private List<InlineKeyboardButton> buttonsRow1 = new ArrayList<>();
     private List<InlineKeyboardButton> buttonsRow2 = new ArrayList<>();
     private List<List<InlineKeyboardButton>> rowList = new ArrayList<>();
-    public final static String START_MESSAGE = "Привет, %s. Этот бот поможет отслеживать актуальные курсы валют. ";
+    public final static String START_MESSAGE = "Привіт, %s. Тут актуальні курси валют. ";
 
     public StartButton(SendMessageBotService sendMessageBotService) {
         this.sendMessageBotService = sendMessageBotService;

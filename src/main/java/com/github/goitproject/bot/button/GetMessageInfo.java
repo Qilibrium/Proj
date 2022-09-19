@@ -28,12 +28,12 @@ public class GetMessageInfo {
         }
 
         if (responses == null) {
-            return "Ошибка запроса в " + bank.getName() + ". Повторите попытку позже или выберете другой банк";
+            return "Помилка запиту " + bank.getName() + ". Спробуйте пізніше або віберіть другий банк";
         }
 
         message = "Курс  " + bank.getName() + ":\n";
 
-        if (!settings.isCheckUSD() && !settings.isCheckEUR() && !settings.isCheckRUR()) {
+        if (!settings.isCheckUSD() && !settings.isCheckEUR() && !settings.isCheckRUR() && !settings.isCheckPLN() && !settings.isCheckGBP()) {
             settings.setCheckUSD(true);
         }
         if (settings.isCheckUSD()) {
@@ -48,6 +48,14 @@ public class GetMessageInfo {
             bankResponseOptional = responses.stream().filter(x -> (x.getCurrency().equals("RUR")) || x.getCurrency().equals("RUB")).findFirst();
             message += createStringMessage(bankResponseOptional, bank, precision);
         }
+        if (settings.isCheckPLN()) {
+            bankResponseOptional = responses.stream().filter(x -> (x.getCurrency().equals("PLN"))).findFirst(); //|| x.getCurrency().equals("PLZ")).findFirst();
+            message += createStringMessage(bankResponseOptional, bank, precision);
+        }
+        if (settings.isCheckGBP()) {
+            bankResponseOptional = responses.stream().filter(x -> (x.getCurrency().equals("GBP"))).findFirst();
+            message += createStringMessage(bankResponseOptional, bank, precision);
+        }
         return message;
     }
 
@@ -58,7 +66,7 @@ public class GetMessageInfo {
         priceBuy = format.format(bankResponse.get().getBuy());
         priceSale = format.format(bankResponse.get().getSale());
         return bankResponse.get().getCurrency() + "/UAH" + "\n" +
-                "Покупка: " + priceBuy + "\n" +
-                (bank == NBU ? "\n" : "Продажа: " + priceSale + "\n\n");
+                "Купівля: " + priceBuy + "\n" +
+                (bank == NBU ? "\n" : "Продаж: " + priceSale + "\n\n");
     }
 }
