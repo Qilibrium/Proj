@@ -68,14 +68,14 @@ public class Settings {
     }
 
     public void setCheckPLN(boolean checkPLN) {
-        isCheckRUR = checkPLN;
+        isCheckPLN = checkPLN;
     }
     public boolean isCheckGBP() {
         return isCheckGBP;
     }
 
     public void setCheckGBP(boolean checkGBP) {
-        isCheckRUR = checkGBP;
+        isCheckGBP = checkGBP;
     }
 
     public boolean isCheckMonoBank() {
